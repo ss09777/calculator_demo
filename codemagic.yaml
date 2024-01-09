@@ -1,0 +1,11 @@
+workflows:
+  calc_app:
+    name: Calculator App Workflow
+    environment:
+      flutter: channel: stable
+
+    scripts:
+      - name: Build APK
+        script: |
+          flutter pub get
+          flutter build apk
