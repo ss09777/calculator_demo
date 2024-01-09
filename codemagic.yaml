@@ -2,7 +2,8 @@ workflows:
   calc_app:
     name: Calculator App Workflow
     environment:
-      flutter: channel: stable
+      flutter:
+        channel: stable
 
     scripts:
       - name: Build APK
