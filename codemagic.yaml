@@ -3,10 +3,4 @@ workflows:
     name: Calculator App Workflow
     environment:
       flutter:
-        channel: stable
-
-    scripts:
-      - name: Build APK
-        script: |
-          flutter pub get
-          flutter build apk
+        version: "2.8.1"  # Replace with your desired Flutter version
